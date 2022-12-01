@@ -50,7 +50,7 @@ public class StudentController {
 	public Student updateStudent(@RequestBody UpdateStudentRequest updateStudentRequest) {
 		return studentService.updateStudent(updateStudentRequest);
 	}
-	
+	//its imp
 	@DeleteMapping("/delete/{id}")
 	public String deleteStudent(@PathVariable long id) {
 		return studentService.deleteStudent(id);
